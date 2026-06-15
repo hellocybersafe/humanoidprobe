@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "humanoidprobe"
+authors = [
+  { name="CyberSafeLabs", email="hello.cybersafe@gmail.com" },
+]
+description = "HumanoidProbe is a command-line XSS WAF intelligence tool that probes how a WAF responds."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+]
+dynamic = ["version"]
+
+[project.urls]
+"Homepage" = "https://github.com"
+
+[project.scripts]
+humanoidprobe = "humanoidprobe.humanoidprobe:main"
+
+[tool.setuptools.package-data]
+"humanoidprobe.payloads" = ["*.txt"]
+
+[tool.setuptools.dynamic]
+version = {attr = "humanoidprobe.__version__.__version__"}

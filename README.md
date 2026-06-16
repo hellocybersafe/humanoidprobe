@@ -10,7 +10,6 @@ and builds a local intelligence profile per target over time.
 
 Built from real bug bounty research. Not theory.
 
-<img width="1920" height="1080" alt="Screenshot_2026-06-15_18-20-22" src="https://github.com/user-attachments/assets/07c655e2-d3c3-4563-a29e-d13a3de32897" />
 <img width="970" height="773" alt="Screenshot_2026-06-15_18-21-26" src="https://github.com/user-attachments/assets/43cff536-e3e2-4512-b787-e808dae49f88" />
 <img width="970" height="775" alt="Screenshot_2026-06-15_18-16-46" src="https://github.com/user-attachments/assets/0ec7a60d-2daf-4f84-9a97-79ffe1c47c5f" />
 

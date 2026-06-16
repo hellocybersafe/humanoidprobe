@@ -75,6 +75,12 @@ humanoidprobe -u https://example.com/search -p q --no-update-check
 
 ---
 
+## Coming Soon
+- SQLi probe module
+- Context-aware injection detection
+- POST parameter support
+- More probe types built from real research
+
 ## Legal & ethical use
 
 Only use HumanoidProbe against targets you have explicit permission to test.

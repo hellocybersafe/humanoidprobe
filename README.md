@@ -20,6 +20,8 @@ Built from real bug bounty research. Not theory.
 
 ## Install
 
+Works on Linux, macOS, and Windows.
+
 ```bash
 pip install humanoidprobe
 ```

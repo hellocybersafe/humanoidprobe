@@ -1,12 +1,11 @@
 # HumanoidProbe
+![Version](https://img.shields.io/badge/version-1.0.13-blue)
+![PyPI](https://img.shields.io/pypi/v/humanoidprobe)
+![License](https://img.shields.io/badge/license-MIT-green)
 **by CyberSafeLabs**
 *Research & development: @cybermansec*
 
 > *Analyse WAF behaviour. Think like an attacker.*
-
-![Version](https://img.shields.io/badge/version-1.0.13-blue)
-![PyPI](https://img.shields.io/pypi/v/humanoidprobe)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 HumanoidProbe is a WAF intelligence CLI tool.
 It probes WAF behaviour, generates context-aware bypass mutations,
